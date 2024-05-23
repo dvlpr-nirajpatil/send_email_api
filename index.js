@@ -27,7 +27,7 @@ app.post('/send-email', async (req, res) => {
 
   // Define email options
   const mailOptions = {
-    from: 'dev.nirajpatil@gmail.com',
+    from: 'vehiclepollutionmonitoring@gmail.com',
     to,
     subject,
     text,
